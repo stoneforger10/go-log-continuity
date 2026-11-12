@@ -24,4 +24,4 @@ genvm-lint check contracts/GoLogContinuity.py
 python -m pytest tests -q
 ```
 
-StudioNet deployment pending.
+[StudioNet contract](https://explorer-studio.genlayer.com/address/0xDb52b0d3669025ce1536fB49bC5C269eC52C3f87) · [Live proof matrix](LIVE_PROOFS.md) · [Submission text](SUBMISSION.md)

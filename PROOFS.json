@@ -1,0 +1,116 @@
+{
+  "network": "StudioNet",
+  "source_commit": "1b2d0b15fe6a5527f2819c87b0131a7d93bc6a3d",
+  "transactions": [
+    {
+      "step": "deploy",
+      "args": [
+        "deploy",
+        "--contract",
+        "contracts/GoLogContinuity.py",
+        "--args",
+        "Z28uc3VtIGRhdGFiYXNlIHRyZWUKNzEyMjg3MjkKSWwxQ3k5Q05wY0h3cG9QRmZReXY0N3RiK0ZmU2M4MGhkVWNGMHhqVE14MD0KCuKAlCBzdW0uZ29sYW5nLm9yZyBBejNncnRWenRkMlMzbEdRREkxOElrbE5GVm5Dd3RyaDYzNUIrQTN5Z0NKeXgwNTZzNXI0UFV6aDBtV1lveitaanJWL2RrR290a3dYd1M1V1ptYTJoN3p6THdzPQo="
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1de",
+      "hash": "0x8f9d784704d4f5e3d955f1389d31b54d97770a38b47f35978c0c0612f153f8c4",
+      "receipt": {
+        "hash": "0x8f9d784704d4f5e3d955f1389d31b54d97770a38b47f35978c0c0612f153f8c4",
+        "address": "0xDb52b0d3669025ce1536fB49bC5C269eC52C3f87",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    },
+    {
+      "step": "sync",
+      "args": [
+        "write",
+        "0xDb52b0d3669025ce1536fB49bC5C269eC52C3f87",
+        "sync"
+      ],
+      "signer": "0x7a413BB4AB62E31d62d4cD9efC8C8a8Dae37FB42",
+      "nonce": "0x1df",
+      "hash": "0x2af6d039690216532e6426d35b4348aa6cf1d039fb6479fe5cd320d824c32e11",
+      "receipt": {
+        "hash": "0x2af6d039690216532e6426d35b4348aa6cf1d039fb6479fe5cd320d824c32e11",
+        "address": "0xDb52b0d3669025ce1536fB49bC5C269eC52C3f87",
+        "status": "FINALIZED",
+        "execution": "SUCCESS",
+        "consensus": "MAJORITY_AGREE",
+        "committed": true,
+        "leader_only": false,
+        "initial_validators": 5,
+        "agree_votes": 3,
+        "idle_votes": 2,
+        "disagree_votes": 0,
+        "validator_execution_seen": true
+      }
+    }
+  ],
+  "address": "0xDb52b0d3669025ce1536fB49bC5C269eC52C3f87",
+  "source": {
+    "address": "0xDb52b0d3669025ce1536fB49bC5C269eC52C3f87",
+    "source_match": true,
+    "sha256": "516947aee80cc36c4eb893999c8fcfec840dc855ed3879a8652471b8f22ca3b7"
+  },
+  "initial": {
+    "note": "go.sum database tree\n71228729\nIl1Cy9CNpcHwpoPFfQyv47tb+FfSc80hdUcF0xjTMx0=\n\n— sum.golang.org Az3grtVztd2S3lGQDI18IklNFVnCwtrh635B+A3ygCJyx056s5r4PUzh0mWYoz+ZjrV/dkGotkwXwS5WZma2h7zzLws=\n",
+    "root": "225d42cbd08da5c1f0a683c57d0cafe3bb5bf857d273cd21754705d318d3331d",
+    "size": 71228729
+  },
+  "current": {
+    "note": "go.sum database tree\n71229161\nZ1kH9WKw7lxC/7rE2EVL4U9IkWNCevc++JE6vVYBuAs=\n\n— sum.golang.org Az3grhxS3ixanpp224owdlZX7lOxzKdWd5w9v5xXJbkP9oNsgX4/I6a1WIuVCvjIFJhjum8ga27DdCzLl40TOFtZUgU=\n",
+    "root": "675907f562b0ee5c42ffbac4d8454be14f489163427af73ef8913abd5601b80b",
+    "size": 71229161
+  },
+  "extension": {
+    "frontier": [
+      "7f0c749463165459e8e698f896d2a3a56ac137b580b9d12628a8306f616fdc5d",
+      "2f4116d6ac55204c7eba61a79c56d5fa08d2eb5b2c5103cf03a24b35afb06456",
+      "4f1030038d74429b8fcdf958b45345d2c4041b81674b029665128f2c525f312d",
+      "9e645e3091ce3ceffb086bfeaccba8db4cf36d03db885d907e1ade195d064843",
+      "d99a81b756784ef9124a3afa9d72908d2850277ec0e608a63a8996508497f896",
+      "bec6694cac1e42a1712ca77e5989cda7118b435162c619fa18b9b2fc0e695166",
+      "e2956d364da3b4b108bfbeceb31499eb443058a89dd955030a381f92031dd425",
+      "568c8a7b4b1b6bc71e5a8c6d97bd0ec4e8fd28989c9073f7242014c1a389fd1f",
+      "366918dfa3a2efdeee7e85e0a14c8a4f11359c80e818658abe283f26da897c80",
+      "c4cefeac0b5d4f3e32a527d094d85a52507ff68d935f2ac701a4dd6041664969",
+      "3106763b745793118f7941289f9e9109cbf46a2ab92b06a4b4ad9a73ed41e399",
+      "50b7261ee0b0a00ed8b1dd3d5e2f9b06631d02477152359776c86445439b34c6",
+      "3d7bbae78380553c3668f65b814077bfce0373d3b63cf8c9dc6d8c25667fa877",
+      "3138b3d8a7ccb4075c9ee7d76de25a5f2dd23015056fadefc19dfc3a0cb93aa1",
+      "16eb6922778c62466698dd59dad70b727341d7eb29fd4b910940dbbc2c0c8f8e",
+      "70dded896ada0a2b1ffe2534dc181b5af7e177801c2d28a7c874df2f328ba06b",
+      "6c72c9312138e69839b79dc947abff757767c34a7b50cf64b3f7d1a42991d45c",
+      "70e800b93ee9ff4e9f2cc985a911f2a965f17c621fd55020f428ee7500843981",
+      "04aa7704b095c2835cf369ad5f6f44fb321ec923e249eb6f297b84734d945c76",
+      "528aba2c8d3497fba9b658a7860ada59da71bbe06d77ae7598e1df8ad88330da",
+      "9eed63b8d4bbf9d73721f1a261c12575f204def94ce7225af8c57b1622435970",
+      "26eaaaa35ea2c148a9db60418fcfb848aca09d497bf8a5a4527f08672b0b5521",
+      "e0e085116a133be373ccbc2d389c875e8956fc03c77edc6a7ed05bc7899d909b",
+      "5e0a9c3473758f41f5e0aacda6e5af548a94fc4f40f73790461a23cea8467142",
+      "8e6755b136dc371606afcd084fcbbe9ee6d5c1e992f63bab21604c933b86570c",
+      "98e60689bb6bf20ec3653eba30f957a20afa27aed81383ef87687225d0ad115c"
+    ],
+    "new": {
+      "note": "go.sum database tree\n71229161\nZ1kH9WKw7lxC/7rE2EVL4U9IkWNCevc++JE6vVYBuAs=\n\n— sum.golang.org Az3grhxS3ixanpp224owdlZX7lOxzKdWd5w9v5xXJbkP9oNsgX4/I6a1WIuVCvjIFJhjum8ga27DdCzLl40TOFtZUgU=\n",
+      "root": "675907f562b0ee5c42ffbac4d8454be14f489163427af73ef8913abd5601b80b",
+      "size": 71229161
+    },
+    "old": {
+      "note": "go.sum database tree\n71228729\nIl1Cy9CNpcHwpoPFfQyv47tb+FfSc80hdUcF0xjTMx0=\n\n— sum.golang.org Az3grtVztd2S3lGQDI18IklNFVnCwtrh635B+A3ygCJyx056s5r4PUzh0mWYoz+ZjrV/dkGotkwXwS5WZma2h7zzLws=\n",
+      "root": "225d42cbd08da5c1f0a683c57d0cafe3bb5bf857d273cd21754705d318d3331d",
+      "size": 71228729
+    }
+  },
+  "independent_signature_and_roots_verified": true,
+  "verified": true
+}
